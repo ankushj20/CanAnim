@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+#nav{
+    height: 16vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+
+}
+#nav img{
+    width: 9%;
+}
+.navCent{
+    display: flex;
+    gap: 3vw;
+}
+.navCent h4{
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#nav i{
+    font-size: 1.2vw;
+    color: white;
+}
+#landingPage{
+    height: 84vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: rgb(225, 14, 14);
+    font-size: 2vw;
+    background: linear-gradient(180deg, rgb(0, 0, 0),  rgb(60, 35, 35));
+    position: relative;
+}
+#landingPage .can{
+    width: 18%;
+    position: absolute;
+    z-index: 5;
+    left: 27%;
+    top: 13%;
+    transition: all cubic-bezier(0.19,1,0.22,0.5);
+}
+
+#landingPage .lamon{
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    z-index: 1;
+    transform: rotate(-30deg);
+    transition: all cubic-bezier(0.19,1,0.22,0.5);
+
+}
+
+#landingPage .blackSoda2{
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 69%;
+    z-index: 1;
+    transform: rotate(0deg);
+    transition: all cubic-bezier(0.19,1,0.22,0.5);
+}
+
+
+#landingPage .jimBeamLogo{
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    left: 12%;
+    z-index: 1;
+    transform: rotate(0deg);
+}
+#second{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+#second #left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#left svg{
+    width: 36%;
+    top: 47%;
+    left: 3%;
+    position: absolute;
+    fill: rgb(62, 16, 23);
+}
+#second #right{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    padding: 12vh 5vw;
+    color: white;
+}
+#right img{
+    width: 75%;
+    height: auto;
+}
+
+#right h1{
+    color: white;
+    font-size: 2.9vw;
+    font-weight: 700;
+    margin: 1.5vh 0;
+
+}
+#right button{
+    margin-top: 2vh;
+    background-color: white;
+    color: black;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    font-size: 1.2vw;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#third{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(130deg, black, rgb(17, 65, 36));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 3vw;
+    position: relative;
+}
+#third .card{
+    width: 25vw;
+    height: 70vh;
+    background-color: #095648e0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15vh;
+    color: #fff;
+}
+.card .blackhops{
+    position: absolute;
+    width: 20%;
+    top: 6%;
+    left: 9%;
+
+}
+.blackberry{
+    position: absolute;
+    width: 15%;
+    top: 45%;
+    left: 19%;
+    z-index: 1;
+    transform: rotate(-30deg);
+    width: 15%;
+}
+.card .tuborg{
+    position: absolute;
+    width: 28%;
+    top: 7%;
+    z-index: 9;
+
+}
+.card .lemon{
+    position: absolute;
+    left: 65%;
+    top: 27%;
+    z-index: 1;
+    width: 15%;
+}
+.card h1{
+    margin-top: 40vh;
+    font-size: 2.5vw;
+}
+.card button{
+    padding: 0.5vw 2.1vw;
+    border-radius: 50px;
+    font-size: 1.3vw;
+}
