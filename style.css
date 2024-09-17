@@ -8,8 +8,10 @@ html,body{
     height: 100%;
     width: 100%;
 }
+  
 #main{
     width: 100%;
+    position: relative;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
 }
@@ -199,4 +201,93 @@ html,body{
     padding: 0.5vw 2.1vw;
     border-radius: 50px;
     font-size: 1.3vw;
+}
+
+#fourth{
+    height: 130vh;
+    width: 100vw;
+    background-color: sienna;
+    display: flex;
+}
+.lft{
+    width: 45%;
+    height: 100%;
+    background-color: aqua;
+}
+.imgdiv {
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+}
+.imgdiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.rgt{
+    width: 55%;
+    height: 100%;
+    background-color: rgb(40, 84, 75);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.rgt p{
+    color: rgb(252, 242, 230);
+    text-align: center;
+    padding: 5vh 6vw;
+
+}
+.rgt h1{
+    color: white;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: megante;
+}
+.rgt h1:nth-child(1){
+    margin-top: 10vh;
+}
+.features{
+    margin-top: 8vh;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+}
+.block{
+    height: 100%;
+    width: 35%;
+}
+.features img{
+    width: 28%;
+    height: 40%;
+    margin-top: 12vh;
+}
+.blkprt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 2vw;
+    gap: 2vw;
+    background-color: rgba(38, 56, 58, 0.384);
+    margin: 2vh 0;
+    border-radius: 50px;
+
+}
+.blkprt h6{
+    line-height: 1.1;
+    color: rgb(252, 242, 230);
+    font-weight: 400;
+    padding-top: 10px;
+}
+.blkprt i{
+    font-size: 3vw;
+    color: rgb(34, 173, 69);
+}
+.blkprt h3{
+    color: rgb(34, 173, 69);
+    line-height: 1;
 }
